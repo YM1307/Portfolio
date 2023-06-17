@@ -1,0 +1,88 @@
+body
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /*Determines the max amount of columns */
+        background-color: black;
+        position: relative;
+        margin-bottom: 1%;
+    }
+
+
+        .Information_Container
+            {
+                width: 30%; /*20% of the parent element (Container)*/
+                height: 90%;
+                border-radius: 20px;
+                background-color: #323232;
+                color: rgb(255, 255, 255);
+                margin-inline-start: 6%;
+                margin-block-start: 6%;
+                text-align: center;            
+            }
+
+                .Expertise
+                    {
+                        background-color: #474646;
+                        color: rgb(255, 255, 255);
+                        width: 90%;
+                        height: 6%;
+                        border-radius: 7%;
+                        margin-inline-start: 4%;
+                    }
+
+
+
+
+        .About_me
+            {
+                padding: 2%;
+                width: 150%;
+                height: 500px;
+                border-radius: 20px;
+                background-color: #1c1b1b;
+                color: rgb(255, 255, 255);
+                display: grid;
+                margin-top: 10px;
+                margin-inline-start: -60%;
+            }
+
+                .Options_List
+                    {
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        margin-inline-start: 30%;
+                    }
+
+                        .Options 
+                            {
+                                width: 50%;
+                                height: 10%;
+                                background-color: white;  
+                                border-radius: 4%;
+                                display: grid;
+                                grid-template-columns: repeat(3,1fr);
+                                margin-top: -2%;
+                            }
+
+                        p.Option
+                            {
+                                color: black;
+                                font-size: 70%;
+                                margin-top: 10%;
+                                margin-inline-start: 4%;
+                            }
+
+
+/*These are the classes to change the JS attributes*/
+p
+    {
+        color: white;
+    }
+
+.color_yellow
+    {
+        color: yellow;
+        font-size: 70%;
+        margin-top: 10%;
+        margin-inline-start: 4%;
+    }

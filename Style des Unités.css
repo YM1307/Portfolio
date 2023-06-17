@@ -1,0 +1,64 @@
+body
+    {
+        background-color: #00bd48;
+        color: black;
+        align-content: center;
+        align-items: center;
+    }
+
+.box
+    {
+        width: 90%;
+        height: 90%;
+        margin-bottom: 20%;
+        border-radius: 20px;
+        background-color: #00a33f;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+        align-content: center;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+.Container
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2%;
+        margin-inline-start: 2%;
+    }
+
+.links
+    {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+.Portfolio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    {
+        margin-inline-start: 5%;
+    }
+
+h1
+    {
+        text-align: center;
+    }
+
+h4
+    {
+       text-align: end;
+       margin-right: 25px;
+    }
+
+a
+    {
+        color: white;
+        margin-left: 30px;
+    }
+
+h2,p
+    {
+       margin-inline-start: 5%;
+    }
